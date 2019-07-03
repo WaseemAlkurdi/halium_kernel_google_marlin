@@ -198,6 +198,8 @@ source "drivers/htc_debug/stability/Kconfig"
 
 source "drivers/firmware/Kconfig"
 
+source "drivers/anbox/Kconfig"
+
 source "drivers/bif/Kconfig"
 
 source "drivers/htc_mnemosyne/Kconfig"
