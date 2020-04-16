@@ -175,6 +175,13 @@ config USB_F_SUBSET
 config USB_F_RNDIS
 	tristate
 
+config USB_F_QCRNDIS
+	tristate
+
+config USB_F_RMNET_BAM
+	def_tristate y
+	tristate
+
 config USB_F_MASS_STORAGE
 	tristate
 
